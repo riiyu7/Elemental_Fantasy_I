@@ -4,13 +4,29 @@
 
 import random
 
-# Start Game Functions
+# Start Game Functions.
 def main():
     print(" ---------------------------------")
     print("| Welcome to Elemental Fantasy I  |")
     print(" ---------------------------------")
 
+    # Call function to get players name.
+
+    player_name = input_player_name()
+
+    print(f"Hello, {player_name}! Welcome to Elemental Fantasy I")
+    print(f"Please choose one of the following options: ")
+
 def input_player_name():
+
+    """
+    This function is used to get the player to input their name
+    which will be used to personalise the experience.
+    """
+
+    name = input("\n Please enter your name: ")
+    return name
+
 
 # Menu Functions
 
@@ -20,20 +36,20 @@ def game_menu():
 
 def rules_menu():
 
-def menu_options():
+    def menu_options():
 
 # Rules Functions
 
-def show_rules():
+    def show_rules():
 
 # Game Rules
 
 
 # Start Game Functions
 
-def start_game():
+    def start_game():
 
-def element_hitpoint_reduction():
+    def element_hitpoint_reduction():
 
 
 
