@@ -37,6 +37,9 @@ def main_menu():
     print("3. Quit Game")
 
 def game_menu():
+    print("\n Game Menu: ")
+    print("1. Return to Main Menu")
+    print("2. Quite Game")
 
 def rules_menu():
 
