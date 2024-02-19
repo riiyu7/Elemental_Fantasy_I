@@ -31,19 +31,29 @@ def input_player_name():
 # Menu Functions
 
 def main_menu():
+    """
+    The main manu which displays options for the user to choose.
+    """
     print("\n Main Menu: ")
     print("1. Play Game!")
     print("2. Rules/Instructions")
     print("3. Quit Game")
 
 def game_menu():
+    """
+    The game manu which displays options for the user to choose.
+    """
     print("\n Game Menu: ")
     print("1. Return to Main Menu")
-    print("2. Quite Game")
+    print("2. Quit Game")
 
 def rules_menu():
-
-def menu_options():
+    """
+    The rules manu which displays options for the user to choose.
+    """
+    print("\n Rules Menu: ")
+    print("1. Return to Main Menu")
+    print("2. Quit Game")
 
 def get_menu_choice():
     while True:
@@ -57,28 +67,32 @@ def get_menu_choice():
 
     def show_rules():
     """
-    Function which prints game rules/instructions 
+    Function which prints game rules/instructions.
     """
     print("\nGame Instructions: ")
-    print("\nIn Elemental Fantasy I, you battle with the computer using the five available elements:")
+    print("\nyou battle with the computer using the five available elements:")
     print("\nFire, Lightning, Wind, Water & Earth.")
-    print("\nThe aim of the game is to pick from one of the 5 elements to deplete your enemies hitpoints (HP) from 30 to 0.")
-    print("\nThe player will take the first turn and depending on what the computer chooses the attack could either be successful, cancelled out or ineffective.")
-    print("\nIf the attack is ineffective then the player will take damage to their HP.")
-    print("\n---------------------------------------------------------------------------------------------------------------------------------------------------")
+    print("\nThe aim of the game is to pick from one of the 5 elements.")
+    print("\nTo deplete your enemies Hitpoints (HP) from 30 to 0.")
+    print("\nThe player will take the first turn and depending") 
+    print("\nOn what the computer chooses the attack could either be: ")
+    print("\nSuccessful - Hit reduced enemines HP") 
+    print("\nCancelled Out - Hit did no damage to player or computer") 
+    print("\nIneffective - Hit did no damge to enemines HP")
+    print("\n----------------------------------------------------------------")
     print("\nEach element has its strengths and weaknesses: ")
-    print("\nFire beats Wind & Lightning but is weak against Earth and Water")
-    print("\nLightning beats Wind & Water but is weak against Earth and Fire")
-    print("\nWind beats Water & Earth but is weak against Fire and Lightning")
-    print("\nWater beats Earth & Fire but is weak against Wind and Lightning")
-    print("\nEarth beats Lightning & Fire but is weak against Water and Wind")
+    print("\nFire beats Wind & Lightning but is weak against Earth and Water.")
+    print("\nLightning beats Wind & Water but is weak against Earth and Fire.")
+    print("\nWind beats Water & Earth but is weak against Fire and Lightning.")
+    print("\nWater beats Earth & Fire but is weak against Wind and Lightning.")
+    print("\nEarth beats Lightning & Fire but is weak against Water and Wind.")
 
 # Game Rules
 
 
 # Start Game Functions
 
-    def start_game():
+    def start_game(player_name):
 
     def element_hitpoint_reduction():
 
