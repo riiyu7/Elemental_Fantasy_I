@@ -10,19 +10,35 @@ def main():
     print("| Welcome to Elemental Fantasy I  |")
     print(" ---------------------------------")
 
-def player_name():
+def input_player_name():
 
 # Menu Functions
 
 def main_menu():
 
-def game_manu():
+def game_menu():
 
 def rules_menu():
 
-# Rules functions
+def menu_options():
+
+# Rules Functions
 
 def show_rules():
+
+# Game Rules
+
+
+# Start Game Functions
+
+def start_game():
+
+def element_hitpoint_reduction():
+
+
+
+
+
 
 if __name__ == "__main__":
     main()
