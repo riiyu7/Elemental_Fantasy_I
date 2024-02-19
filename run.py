@@ -31,12 +31,16 @@ def input_player_name():
 # Menu Functions
 
 def main_menu():
+    print("\n Main Menu: ")
+    print("1. Play Game!")
+    print("2. Rules/Instructions")
+    print("3. Quit Game")
 
 def game_menu():
 
 def rules_menu():
 
-    def menu_options():
+def menu_options():
 
 # Rules Functions
 
