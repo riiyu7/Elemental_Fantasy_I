@@ -59,6 +59,10 @@ def rules_menu():
 
 def get_menu_choice():
     while True:
+        main_menu()
+        game_menu()
+        rules_menu()
+
         try:
             choice = int(input("Option: "))
             return choice
