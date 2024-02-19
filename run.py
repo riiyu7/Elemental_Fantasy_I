@@ -53,6 +53,22 @@ def get_menu_choice():
 # Rules Functions
 
     def show_rules():
+    """
+    Function which prints game rules/instructions 
+    """
+    print("\nGame Instructions: ")
+    print("\nIn Elemental Fantasy I, you battle with the computer using the five available elements:")
+    print("\nFire, Lightning, Wind, Water & Earth.")
+    print("\nThe aim of the game is to pick from one of the 5 elements to deplete your enemies hitpoints (HP) from 30 to 0.")
+    print("\nThe player will take the first turn and depending on what the computer chooses the attack could either be successful, cancelled out or ineffective.")
+    print("\nIf the attack is ineffective then the player will take damage to their HP.")
+    print("\n---------------------------------------------------------------------------------------------------------------------------------------------------")
+    print("\nEach element has its strengths and weaknesses: ")
+    print("\nFire beats Wind & Lightning but is weak against Earth and Water")
+    print("\nLightning beats Wind & Water but is weak against Earth and Fire")
+    print("\nWind beats Water & Earth but is weak against Fire and Lightning")
+    print("\nWater beats Earth & Fire but is weak against Wind and Lightning")
+    print("\nEarth beats Lightning & Fire but is weak against Water and Wind")
 
 # Game Rules
 
