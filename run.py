@@ -106,6 +106,7 @@ element_hitpoints = {
     'Earth':5, 
 }
 
+"""
 #Fire Moves
 if player == 'fire'
     print("computer lost (HP)")
@@ -146,6 +147,8 @@ elif player == 'earth' and (computer == 'lightning' or computer == 'fire'):
 elif player == 'earth' and (computer == 'water' or computer == 'Wind'):
     print(f"{player_name} lost (HP)")
     player_hitpoints -=5
+"""
+
 # Start Game Functions
 
     def start_game(player_name):
