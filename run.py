@@ -42,6 +42,14 @@ def rules_menu():
 
 def menu_options():
 
+def get_menu_choice():
+    while True:
+        try:
+            choice = int(input("Option: "))
+            return choice
+        except ValueError:
+            print("Invalid Input. Please enter a valid option.")
+
 # Rules Functions
 
     def show_rules():
