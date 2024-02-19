@@ -133,6 +133,12 @@ elif player == 'Wind' and (computer == 'lightning' or computer == 'fire'):
 Add function rules for element Wind
 #Water Moves
 
+elif player == 'water' and (computer == 'earth' or computer == 'fire'):
+    print("computer lost (HP)")
+    computer_hitpoints -= 5
+elif player == 'water' and (computer == 'lightning' or computer == 'Wind'):
+    print(f"{player_name} lost (HP)")
+    player_hitpoints -=5
 #Earth Moves
 
 # Start Game Functions
