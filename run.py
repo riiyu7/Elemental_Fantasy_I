@@ -17,6 +17,8 @@ def main():
     print(f"Hello, {player_name}! Welcome to Elemental Fantasy I")
     print(f"Please choose one of the following options: ")
 
+    # ADD additional code for menu choices
+
 def input_player_name():
 
     """
@@ -63,8 +65,10 @@ def get_menu_choice():
         except ValueError:
             print("Invalid Input. Please enter a valid option.")
 
-# Rules Functions
+# ADD additional menu fucntions for individual menus
 
+
+# Rules Functions
     def show_rules():
     """
     Function which prints game rules/instructions.
@@ -147,6 +151,7 @@ elif player == 'earth' and (computer == 'lightning' or computer == 'fire'):
 elif player == 'earth' and (computer == 'water' or computer == 'Wind'):
     print(f"{player_name} lost (HP)")
     player_hitpoints -=5
+
 """
 
 # Start Game Functions
