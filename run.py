@@ -34,7 +34,7 @@ def input_player_name():
 
 def main_menu():
     """
-    The main manu which displays options for the user to choose.
+    The main menu which displays options for the user to choose.
     """
     print("\n Main Menu: ")
     print("1. Play Game!")
@@ -43,7 +43,7 @@ def main_menu():
 
 def game_menu():
     """
-    The game manu which displays options for the user to choose.
+    The game menu which displays options for the user to choose.
     """
     print("\n Game Menu: ")
     print("1. Return to Main Menu")
@@ -51,7 +51,7 @@ def game_menu():
 
 def rules_menu():
     """
-    The rules manu which displays options for the user to choose.
+    The rules menu which displays options for the user to choose.
     """
     print("\n Rules Menu: ")
     print("1. Return to Main Menu")
