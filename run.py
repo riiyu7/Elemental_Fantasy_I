@@ -78,7 +78,7 @@ def get_menu_choice():
     print("\nOn what the computer chooses the attack could either be: ")
     print("\nSuccessful - Hit reduced enemines HP") 
     print("\nCancelled Out - Hit did no damage to player or computer") 
-    print("\nIneffective - Hit did no damge to enemines HP")
+    print("\nIneffective - Hit does no damge to enemines HP")
     print("\n----------------------------------------------------------------")
     print("\nEach element has its strengths and weaknesses: ")
     print("\nFire beats Wind & Lightning but is weak against Earth and Water.")
@@ -89,16 +89,20 @@ def get_menu_choice():
 
 # Game Rules
 
+# Level 1 Hitpoint:
+element_hitpoints = {
+    'Fire': 5,
+    'Lightning': 5,
+    'Wind':5, 
+    'Water':5, 
+    'Earth':5, 
+}
 
 # Start Game Functions
 
     def start_game(player_name):
 
     def element_hitpoint_reduction():
-
-
-
-
 
 
 if __name__ == "__main__":
