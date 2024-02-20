@@ -119,8 +119,22 @@ element_hitpoints = {
 # Player & Computer hitpoint values
 
 player_hitpoints = 30
-
 computer_hitpoints = 30
+
+while player_hitpoints > 0 and computer_hitpoints > 0:
+
+    computer = random.choice(elements)
+
+    player = input("\n Choose your element (Fire, Lightning, Wind, Water or Earth): ").lower()
+
+    print(f"{player_name}'s choice: {player}")
+    print(f"Computers choice: {computer}")
+    print("-----------------------------------------")
+
+    if player_hitpoints <= 0:
+        print(f"{player_name} has lost Game Over.")
+    else computer_hitpoints <= 0:
+        print(f"{player_name} has Won. Congratulations.")
 
 
 # Start Game Functions
