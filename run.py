@@ -86,7 +86,7 @@ def get_menu_choice():
     print("\nOn what the computer chooses the attack could either be: ")
     print("\nSuccessful - Hit reduced enemines HP") 
     print("\nCancelled Out - Hit did no damage to player or computer") 
-    print("\nIneffective - Hit does no damge to enemines HP")
+    print("\failed - Hit does no damge to enemines HP")
     print("\n----------------------------------------------------------------")
     print("\nEach element has its strengths and weaknesses: ")
     print("\nFire beats Wind & Lightning but is weak against Earth and Water.")
@@ -136,15 +136,27 @@ while player_hitpoints > 0 and computer_hitpoints > 0:
     else computer_hitpoints <= 0:
         print(f"{player_name} has Won. Congratulations.")
 
-
 # Start Game Functions
-
 
     def start_game(player_name):
         print(f"\n Get ready to battle {player_name}... ")
 
     def element_hitpoint_reduction(player_move, computer_move):
-        
+        if computer_move in element_rules[player_move][win_against]:
+            element_hitpoints -= 5
+            print(f"{player_name} chose {player_move} and succesfully beat {computer_move}")
+            print(f"Computer hitpoints reduced to {hitpoints[player_move]}")
+        elif player_move in element_rules[computer_move][win_against]:
+            element_hitpoints -= 5
+            print(f"Computer chose {computer_move} and {player_name}'s {player_move} failed")
+            print(f"{player_name} hitpoints reduced to {hitpoints[computer_move]}")
+        else:
+            print("Move Cancelled Out - no hitpoint reduction")
+
+        print("\n-----------------------------------------")
+        print(f"{player_name}'s HP: {player_hitpoints}")
+        print(f"Computer's HP: {computer_hitpoints}")
+        print("\n-----------------------------------------")
 
 
 if __name__ == "__main__":
