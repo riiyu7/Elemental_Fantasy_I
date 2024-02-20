@@ -114,7 +114,14 @@ element_hitpoints = {
     'Earth':5, 
 }
 
+# Player & Computer hitpoint values
+
+player_hitpoints = 30
+
+computer_hitpoints = 30
+
 # Start Game Functions
+
 
     def start_game(player_name):
 
