@@ -97,6 +97,8 @@ def get_menu_choice():
 
 # Game Rules
 
+elements = ["Fire", "Lightning", "Wind", "Water", "Earth"]
+
 element_rules = {
     'Fire': {'win_against': ['Wind', 'Lightning']},
     'Lightning': {'win_against': ['Wind', 'Water']},
@@ -119,6 +121,7 @@ element_hitpoints = {
 player_hitpoints = 30
 
 computer_hitpoints = 30
+
 
 # Start Game Functions
 
