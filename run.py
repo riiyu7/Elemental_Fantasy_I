@@ -73,7 +73,7 @@ def get_menu_choice():
 
 
 # Rules Functions
-    def show_rules():
+def show_rules():
     """
     Function which prints game rules/instructions.
     """
