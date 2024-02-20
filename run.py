@@ -114,50 +114,6 @@ element_hitpoints = {
     'Earth':5, 
 }
 
-"""
-#Fire Moves
-if player == 'fire'
-    print("computer lost (HP)")
-    computer_hitpoints -= 5
-elif player == 'fire' and (computer == 'earth' or computer == 'water'):
-    print(f"{player_name} lost (HP)")
-    player_hitpoints -=5
-
-#Lightning Moves
-elif player == 'Lightning' and (computer == 'wind' or computer == 'water'):
-    print("computer lost (HP)")
-    computer_hitpoints -= 5
-elif player == 'Lightning' and (computer == 'earth' or computer == 'fire'):
-    print(f"{player_name} lost (HP)")
-    player_hitpoints -=5
-
-#Wind Moves
-elif player == 'Wind' and (computer == 'earth' or computer == 'water'):
-    print("computer lost (HP)")
-    computer_hitpoints -= 5
-elif player == 'Wind' and (computer == 'lightning' or computer == 'fire'):
-    print(f"{player_name} lost (HP)")
-    player_hitpoints -=5
-
-
-#Water Moves
-elif player == 'water' and (computer == 'earth' or computer == 'fire'):
-    print("computer lost (HP)")
-    computer_hitpoints -= 5
-elif player == 'water' and (computer == 'lightning' or computer == 'Wind'):
-    print(f"{player_name} lost (HP)")
-    player_hitpoints -=5
-#Earth Moves
-
-elif player == 'earth' and (computer == 'lightning' or computer == 'fire'):
-    print("computer lost (HP)")
-    computer_hitpoints -= 5
-elif player == 'earth' and (computer == 'water' or computer == 'Wind'):
-    print(f"{player_name} lost (HP)")
-    player_hitpoints -=5
-
-"""
-
 # Start Game Functions
 
     def start_game(player_name):
