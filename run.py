@@ -141,8 +141,10 @@ while player_hitpoints > 0 and computer_hitpoints > 0:
 
 
     def start_game(player_name):
+        print(f"\n Get ready to battle {player_name}... ")
 
-    def element_hitpoint_reduction():
+    def element_hitpoint_reduction(player_move, computer_move):
+        
 
 
 if __name__ == "__main__":
