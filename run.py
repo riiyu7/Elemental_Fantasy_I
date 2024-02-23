@@ -70,23 +70,26 @@ def show_rules():
     """
     Function which prints game rules/instructions.
     """
-    print("\nGame Instructions: ")
-    print("\nyou battle with the computer using the five available elements:")
-    print("\nFire, Lightning, Wind, Water & Earth.")
-    print("\nThe aim of the game is to pick from one of the 5 elements.")
-    print("\nTo deplete your enemies Hitpoints (HP) from 30 to 0.")
-    print("\nThe player will take the first turn and depending") 
-    print("\nOn what the computer chooses the attack could either be: ")
-    print("\nSuccessful - Hit reduced enemines HP") 
-    print("\nCancelled Out - Hit did no damage to player or computer") 
-    print("\failed - Hit does no damge to enemines HP")
-    print("\n----------------------------------------------------------------")
-    print("\nEach element has its strengths and weaknesses: ")
-    print("\nFire beats Wind & Lightning but is weak against Earth and Water.")
-    print("\nLightning beats Wind & Water but is weak against Earth and Fire.")
-    print("\nWind beats Water & Earth but is weak against Fire and Lightning.")
-    print("\nWater beats Earth & Fire but is weak against Wind and Lightning.")
-    print("\nEarth beats Lightning & Fire but is weak against Water and Wind.")
+    print(f"""==================== Instructions for Elemental Fantasy I ======================
+    Gameplay: 
+    You battle with the computer using the five available elements:
+    Fire, Lightning, Wind, Water & Earth.
+    The aim of the game is to pick from one of the 5 elements
+    To deplete your enemies Hitpoints (HP) from 30 to 0.
+    The player will take the first turn and depending
+    On what the computer chooses the attack could either be:
+    Successful - Hit reduced enemines HP
+    Cancelled Out - Hit did no damage to player or computer
+    Failed - Hit does no damge to enemines HP
+    """)
+    print(f"""==================== Element Rules for Elemental Fantasy I ======================
+    Each element has its strengths and weaknesses: 
+    Fire beats Wind & Lightning but is weak against Earth and Water.
+    Lightning beats Wind & Water but is weak against Earth and Fire.
+    Wind beats Water & Earth but is weak against Fire and Lightning.
+    Water beats Earth & Fire but is weak against Wind and Lightning.
+    Earth beats Lightning & Fire but is weak against Water and Wind.
+    """)
 
 # Game Rules
 
