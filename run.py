@@ -19,6 +19,7 @@ def main():
 
     # ADD additional code for menu choices
 
+    main_menu()
 
 def input_player_name():
 
