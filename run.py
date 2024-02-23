@@ -94,8 +94,8 @@ def show_rules():
 # Game Rules
 
 # Attribution - Personal Tutor - Tutoring on python for creating game elements.
-# Attribution - Stack Overflow - creating structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
-# Attribution - Youtube: NeuralNine - creating structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
+# Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
+# Attribution - Youtube: NeuralNine - creating basic structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
 
 elements = ["Fire", "Lightning", "Wind", "Water", "Earth"]
 
@@ -120,8 +120,8 @@ element_hitpoints = {
 # Player & Computer hitpoint values
 
 # Attribution - Personal Tutor - Tutoring on python for creating game elements.
-# Attribution - Stack Overflow - creating structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
-# Attribution - Youtube: NeuralNine - creating structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
+# Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
+# Attribution - Youtube: NeuralNine - creating basic structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
 
 """
 Hitpoints for both players
@@ -159,8 +159,8 @@ def play_game(player_name):
 # Start Game Functions
 
 # Attribution - Personal Tutor - Tutoring on python for creating game elements.
-# Attribution - Stack Overflow - creating structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
-# Attribution - Youtube: NeuralNine - creating structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
+# Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
+
 
 def start_game(player_name):
     """
