@@ -82,6 +82,15 @@ def show_rules():
     Cancelled Out - Hit did no damage to player or computer
     Failed - Hit does no damge to enemines HP
     """)
+     print(f"""==================== Element levels for Elemental Fantasy I ======================
+    Every element starts at 5 attack power towards hitpoints 
+    After every successful the element which was successful
+    will level up by 5 till it reaches 15.
+    for example:
+    If a player successfully lands his first attack 
+    with 'Fire' being at an attack power of 5
+    The next turn the same element will now have an attack power of 10 
+    """)
     print(f"""==================== Element Rules for Elemental Fantasy I ======================
     Each element has its strengths and weaknesses: 
     Fire beats Wind & Lightning but is weak against Earth and Water.
