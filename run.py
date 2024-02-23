@@ -142,15 +142,21 @@ def play_game(player_name):
 def start_game(player_name):
     print(f"\n Get ready to battle {player_name}... ")
 
-def element_hitpoint_reduction(player_move, computer_move):
-    if computer_move in element_rules[player_move][win_against]:
+def element_hitpoint_reduction(player_name, player_move, computer_move):
+    """
+    Function for reducing player/computer hitpoints after every move
+    """
+    global player_hitpoints
+    global computer_hitpoints
+
+    if computer_move in element_rules[player_move]['win_against']:
         element_hitpoints -= 5
         print(f"{player_name} chose {player_move} and succesfully beat {computer_move}")
-        print(f"Computer hitpoints reduced to {hitpoints[player_move]}")
-    elif player_move in element_rules[computer_move][win_against]:
+        print(f"Computer hitpoints reduced to {computer_hitpoints}")
+    elif player_move in element_rules[computer_move]['win_against']:
         element_hitpoints -= 5
         print(f"Computer chose {computer_move} and {player_name}'s {player_move} failed")
-        print(f"{player_name} hitpoints reduced to {hitpoints[computer_move]}")
+        print(f"{player_name} hitpoints reduced to {player_hitpoints}")
     else:
         print("Move Cancelled Out - no hitpoint reduction")
 
