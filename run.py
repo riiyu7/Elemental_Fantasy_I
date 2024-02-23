@@ -54,22 +54,6 @@ def main_menu():
     print("2. Rules/Instructions")
     print("3. Quit Game")
 
-def game_menu():
-    """
-    The game menu which displays options for the user to choose.
-    """
-    print("\n Game Menu: ")
-    print("1. Return to Main Menu")
-    print("2. Quit Game")
-
-def rules_menu():
-    """
-    The rules menu which displays options for the user to choose.
-    """
-    print("\n Rules Menu: ")
-    print("1. Return to Main Menu")
-    print("2. Quit Game")
-
 def get_menu_choice():
     
     while True:
