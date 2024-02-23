@@ -19,6 +19,7 @@ def main():
 
     # ADD additional code for menu choices
 
+
 def input_player_name():
 
     """
@@ -121,20 +122,20 @@ element_hitpoints = {
 player_hitpoints = 30
 computer_hitpoints = 30
 
-while player_hitpoints > 0 and computer_hitpoints > 0:
+def play_game(player_name):
+    while player_hitpoints > 0 and computer_hitpoints > 0:
+        computer = random.choice(elements)
+        player = input("\n Choose your element (Fire, Lightning, Wind, Water or Earth): ").capitaliza()
+        print(f"{player_name}'s choice: {player}")
+        print(f"Computers choice: {computer}")
+        print("-----------------------------------------")
 
-    computer = random.choice(elements)
+        element_hitpoint_reduction(player_name, player, computer)
 
-    player = input("\n Choose your element (Fire, Lightning, Wind, Water or Earth): ").lower()
-
-    print(f"{player_name}'s choice: {player}")
-    print(f"Computers choice: {computer}")
-    print("-----------------------------------------")
-
-    if player_hitpoints <= 0:
-        print(f"{player_name} has lost Game Over.")
-    else computer_hitpoints <= 0:
-        print(f"{player_name} has Won. Congratulations.")
+        if player_hitpoints <= 0:
+            print(f"{player_name} has lost Game Over.")
+        else computer_hitpoints <= 0:
+            print(f"{player_name} has Won. Congratulations.")
 
 # Start Game Functions
 
