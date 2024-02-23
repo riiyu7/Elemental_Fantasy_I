@@ -2,6 +2,8 @@ import random
 
 # Start Game Functions.
 
+# Attribution: Stack Overflow - Menu -  https://stackoverflow.com/questions/34192588/simple-menu-in-python-3
+
 def main():
     print(" ---------------------------------")
     print("| Welcome to Elemental Fantasy I  |")
@@ -88,6 +90,10 @@ def show_rules():
 
 # Game Rules
 
+# Attribution - Personal Tutor - Tutoring on python for creating game elements.
+# Attribution - Stack Overflow - creating structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
+# Attribution - Youtube: NeuralNine - creating structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
+
 elements = ["Fire", "Lightning", "Wind", "Water", "Earth"]
 
 element_rules = {
@@ -109,6 +115,10 @@ element_hitpoints = {
 }
 
 # Player & Computer hitpoint values
+
+# Attribution - Personal Tutor - Tutoring on python for creating game elements.
+# Attribution - Stack Overflow - creating structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
+# Attribution - Youtube: NeuralNine - creating structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
 
 """
 Hitpoints for both players
@@ -144,6 +154,10 @@ def play_game(player_name):
             print(f"{player_name} has Won. Congratulations.")
 
 # Start Game Functions
+
+# Attribution - Personal Tutor - Tutoring on python for creating game elements.
+# Attribution - Stack Overflow - creating structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
+# Attribution - Youtube: NeuralNine - creating structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
 
 def start_game(player_name):
     """
