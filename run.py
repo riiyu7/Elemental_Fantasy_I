@@ -109,7 +109,7 @@ element_rules = {
 }
 
 # Level 1 Hitpoint:
-
+"""
 element_hitpoints = {
     'Fire': 5,
     'Lightning': 5,
@@ -134,6 +134,15 @@ element_hitpoints_lvl_three = {
     'Wind': 15, 
     'Water': 15, 
     'Earth': 15, 
+}
+"""
+
+element_levels = {
+    'Fire': 1,
+    'Lightning': 1,
+    'Wind': 1, 
+    'Water': 1, 
+    'Earth': 1, 
 }
 
 # Player & Computer hitpoint values
@@ -194,14 +203,22 @@ def element_hitpoint_reduction(player_name, player_move, computer_move):
     global player_hitpoints
     global computer_hitpoints
 
+
+    player_level = element_levels[player_move]
+    computer_level = element_levels[computer_move]
+
     if computer_move in element_rules[player_move]['win_against']:
-        computer_hitpoints -= 5
+        computer_hitpoints -= 5 * player_level
         print(f"{player_name} chose {player_move} and succesfully beat {computer_move}")
         print(f"Computer hitpoints reduced to {computer_hitpoints}")
+        if player_level < 3: 
+            element_levels[player_move] += 1
     elif player_move in element_rules[computer_move]['win_against']:
-        player_hitpoints -= 5
+        player_hitpoints -= 5 * computer_level 
         print(f"Computer chose {computer_move} and {player_name}'s {player_move} failed")
         print(f"{player_name} hitpoints reduced to {player_hitpoints}")
+        if computer_level < 3: 
+            element_levels[computer_move] += 1 
     else:
         print("Move Cancelled Out - no hitpoint reduction")
 
