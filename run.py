@@ -137,7 +137,7 @@ def play_game(player_name):
 
         if player_hitpoints <= 0:
             print(f"{player_name} has lost Game Over.")
-        else computer_hitpoints <= 0:
+        elif computer_hitpoints <= 0:
             print(f"{player_name} has Won. Congratulations.")
 
 # Start Game Functions
