@@ -126,6 +126,11 @@ def play_game(player_name):
     while player_hitpoints > 0 and computer_hitpoints > 0:
         computer = random.choice(elements)
         player = input("\n Choose your element (Fire, Lightning, Wind, Water or Earth): ").capitalize()
+        
+        if player not in elements:
+            print("Invalid input. Please choose a valid element.")
+            continue
+        
         print(f"{player_name}'s choice: {player}")
         print(f"Computers choice: {computer}")
         print("-----------------------------------------")
