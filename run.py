@@ -98,7 +98,7 @@ def show_rules():
 # Attribution - Youtube: NeuralNine - creating basic structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
 
 elements = ["Fire", "Lightning", "Wind", "Water", "Earth"]
-special = ["Cure", "Poison", "Protect"]
+special = ["Cure", "Poison", "Protect", "Reduce"]
 
 element_rules = {
     'Fire': {'win_against': ['Wind', 'Lightning']},
