@@ -1,10 +1,7 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
-
 import random
 
 # Start Game Functions.
+
 def main():
     print(" ---------------------------------")
     print("| Welcome to Elemental Fantasy I  |")
@@ -17,7 +14,7 @@ def main():
     print(f"Hello, {player_name}! Welcome to Elemental Fantasy I")
     print(f"Please choose one of the following options: ")
 
-    # ADD additional code for menu choices
+    # While loop to get menu options.
 
     while True:
         choice = get_menu_choice()
@@ -64,10 +61,9 @@ def get_menu_choice():
         except ValueError:
             print("Invalid Input. Please enter a valid option.")
 
-# ADD additional menu fucntions for individual menus
-
 
 # Rules Functions
+
 def show_rules():
     """
     Function which prints game rules/instructions.
@@ -103,6 +99,7 @@ element_rules = {
 }
 
 # Level 1 Hitpoint:
+
 element_hitpoints = {
     'Fire': 5,
     'Lightning': 5,
@@ -120,6 +117,9 @@ player_hitpoints = 30
 computer_hitpoints = 30
 
 def play_game(player_name):
+    """
+    Main game function which takes in player inputs against their hitpoints
+    """
     global player_hitpoints
     global computer_hitpoints
 
@@ -145,6 +145,9 @@ def play_game(player_name):
 # Start Game Functions
 
 def start_game(player_name):
+    """
+    Function used to display a message before starting the game.
+    """
     print(f"\n Get ready to battle {player_name}... ")
 
 def element_hitpoint_reduction(player_name, player_move, computer_move):
