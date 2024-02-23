@@ -112,11 +112,30 @@ element_rules = {
 element_hitpoints = {
     'Fire': 5,
     'Lightning': 5,
-    'Wind':5, 
-    'Water':5, 
-    'Earth':5, 
+    'Wind': 5, 
+    'Water': 5, 
+    'Earth': 5, 
 }
 
+#  Level 2 Hitpoints:
+
+element_hitpoints_lvl_two = {
+    'Fire': 10,
+    'Lightning': 10,
+    'Wind': 10, 
+    'Water': 10, 
+    'Earth': 10, 
+}
+
+element_hitpoints_lvl_three = {
+    element_hitpoints_lvl_two = {
+    'Fire': 15,
+    'Lightning': 15,
+    'Wind': 15, 
+    'Water': 15, 
+    'Earth': 15, 
+}
+}
 # Player & Computer hitpoint values
 
 # Attribution - Personal Tutor - Tutoring on python for creating game elements.
