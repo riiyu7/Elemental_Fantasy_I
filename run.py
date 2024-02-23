@@ -119,6 +119,9 @@ element_hitpoints = {
 
 # Player & Computer hitpoint values
 
+"""
+Hitpoints for both players
+"""
 player_hitpoints = 30
 computer_hitpoints = 30
 
@@ -144,7 +147,7 @@ def start_game(player_name):
 
 def element_hitpoint_reduction(player_name, player_move, computer_move):
     """
-    Function for reducing player/computer hitpoints after every move
+    Function for which elements are chosen and hitpoints 
     """
     global player_hitpoints
     global computer_hitpoints
