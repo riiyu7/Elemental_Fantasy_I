@@ -150,11 +150,11 @@ def element_hitpoint_reduction(player_name, player_move, computer_move):
     global computer_hitpoints
 
     if computer_move in element_rules[player_move]['win_against']:
-        element_hitpoints -= 5
+        computer_hitpoints -= 5
         print(f"{player_name} chose {player_move} and succesfully beat {computer_move}")
         print(f"Computer hitpoints reduced to {computer_hitpoints}")
     elif player_move in element_rules[computer_move]['win_against']:
-        element_hitpoints -= 5
+        player_hitpoints -= 5
         print(f"Computer chose {computer_move} and {player_name}'s {player_move} failed")
         print(f"{player_name} hitpoints reduced to {player_hitpoints}")
     else:
