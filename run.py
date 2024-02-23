@@ -19,7 +19,18 @@ def main():
 
     # ADD additional code for menu choices
 
-    main_menu()
+    while True:
+        choice = get_menu_choice()
+
+        if choice == 1:
+            play_game(player_name)
+        elif choice == 2:
+            show_rules()
+        elif choice == 3:
+            print("Exiting the game. Goodbye!")
+            break
+        else:
+            print("Invalid choice. Please choose a valid option.")
 
 def input_player_name():
 
@@ -60,11 +71,9 @@ def rules_menu():
     print("2. Quit Game")
 
 def get_menu_choice():
+    
     while True:
         main_menu()
-        game_menu()
-        rules_menu()
-
         try:
             choice = int(input("Option: "))
             return choice
@@ -127,6 +136,9 @@ player_hitpoints = 30
 computer_hitpoints = 30
 
 def play_game(player_name):
+    global player_hitpoints
+    global computer_hitpoints
+
     while player_hitpoints > 0 and computer_hitpoints > 0:
         computer = random.choice(elements)
         player = input("\n Choose your element (Fire, Lightning, Wind, Water or Earth): ").capitalize()
