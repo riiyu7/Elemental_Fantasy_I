@@ -117,6 +117,7 @@ player_hitpoints = 30
 computer_hitpoints = 30
 
 def play_game(player_name):
+    start_game(player_name)
     """
     Main game function which takes in player inputs against their hitpoints
     """
