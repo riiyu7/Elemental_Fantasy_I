@@ -98,6 +98,7 @@ def show_rules():
 # Attribution - Youtube: NeuralNine - creating basic structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
 
 elements = ["Fire", "Lightning", "Wind", "Water", "Earth"]
+special = ["Cure", "Poison", "Protect"]
 
 element_rules = {
     'Fire': {'win_against': ['Wind', 'Lightning']},
@@ -128,14 +129,13 @@ element_hitpoints_lvl_two = {
 }
 
 element_hitpoints_lvl_three = {
-    element_hitpoints_lvl_two = {
     'Fire': 15,
     'Lightning': 15,
     'Wind': 15, 
     'Water': 15, 
     'Earth': 15, 
 }
-}
+
 # Player & Computer hitpoint values
 
 # Attribution - Personal Tutor - Tutoring on python for creating game elements.
