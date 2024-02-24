@@ -82,7 +82,7 @@ def show_rules():
     Cancelled Out - Hit did no damage to player or computer
     Failed - Hit does no damge to enemines HP
     """)
-     print(f"""==================== Element levels for Elemental Fantasy I ======================
+    print(f"""==================== Element levels for Elemental Fantasy I ======================
     Every element starts at 5 attack power towards hitpoints 
     After every successful the element which was successful
     will level up by 5 till it reaches 15.
@@ -163,16 +163,14 @@ element_levels = {
 """
 Hitpoints for both players
 """
-player_hitpoints = 30
-computer_hitpoints = 30
 
 def play_game(player_name):
     start_game(player_name)
     """
     Main game function which takes in player inputs against their hitpoints
     """
-    global player_hitpoints
-    global computer_hitpoints
+    player_hitpoints = 30
+    computer_hitpoints = 30
 
     while player_hitpoints > 0 and computer_hitpoints > 0:
         computer = random.choice(elements)
@@ -186,7 +184,8 @@ def play_game(player_name):
         print(f"Computers choice: {computer}")
         print("-----------------------------------------")
 
-        element_hitpoint_reduction(player_name, player, computer)
+        player_hitpoints, computer_hitpoints = element_hitpoint_reduction(player_name, player, computer, player_hitpoints, computer_hitpoints)
+
 
         if player_hitpoints <= 0:
             print(f"{player_name} has lost Game Over.")
@@ -205,14 +204,10 @@ def start_game(player_name):
     """
     print(f"\n Get ready to battle {player_name}... ")
 
-def element_hitpoint_reduction(player_name, player_move, computer_move):
+def element_hitpoint_reduction(player_name, player_move, computer_move, player_hitpoints, computer_hitpoints):
     """
     Function for which elements are chosen and hitpoints 
     """
-    global player_hitpoints
-    global computer_hitpoints
-
-
     player_level = element_levels[player_move]
     computer_level = element_levels[computer_move]
 
@@ -236,6 +231,7 @@ def element_hitpoint_reduction(player_name, player_move, computer_move):
     print(f"Computer's HP: {computer_hitpoints}")
     print("\n-----------------------------------------")
 
+    return player_hitpoints, computer_hitpoints
 
 if __name__ == "__main__":
     main()
