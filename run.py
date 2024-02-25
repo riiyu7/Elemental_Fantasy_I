@@ -117,35 +117,6 @@ element_rules = {
     'Earth': {'win_against': ['Lightning', 'Fire']},
 }
 
-# Level 1 Hitpoint:
-"""
-element_hitpoints = {
-    'Fire': 5,
-    'Lightning': 5,
-    'Wind': 5, 
-    'Water': 5, 
-    'Earth': 5, 
-}
-
-#  Level 2 Hitpoints:
-
-element_hitpoints_lvl_two = {
-    'Fire': 10,
-    'Lightning': 10,
-    'Wind': 10, 
-    'Water': 10, 
-    'Earth': 10, 
-}
-
-element_hitpoints_lvl_three = {
-    'Fire': 15,
-    'Lightning': 15,
-    'Wind': 15, 
-    'Water': 15, 
-    'Earth': 15, 
-}
-"""
-
 element_levels = {
     'Fire': 1,
     'Lightning': 1,
@@ -160,9 +131,6 @@ element_levels = {
 # Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
 # Attribution - Youtube: NeuralNine - creating basic structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
 
-"""
-Hitpoints for both players
-"""
 
 def play_game(player_name):
     start_game(player_name)
