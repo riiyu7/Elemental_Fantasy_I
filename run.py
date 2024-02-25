@@ -149,8 +149,8 @@ def play_game(player_name):
     """
     Main game function which takes in player inputs against their hitpoints
     """
-    player_hitpoints = 30
-    computer_hitpoints = 30
+    player_hitpoints = 50
+    computer_hitpoints = 50
 
     while player_hitpoints > 0 and computer_hitpoints > 0:
         display_element_levels()
