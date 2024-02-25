@@ -106,6 +106,18 @@ def show_rules():
 # Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
 # Attribution - Youtube: NeuralNine - creating basic structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
 
+def display_element_levels():
+    """
+    Function which displays the current level of the players elements.
+    """
+    print("\n-------------------------------------------")
+    print("Current Elemenet Levels: ")
+    for element, level in element_levels.items():
+        print(f"{element}: Level {level}")
+    print("\n-------------------------------------------")
+
+
+
 elements = ["Fire", "Lightning", "Wind", "Water", "Earth"]
 special = ["Cure", "Poison", "Protect", "Reduce"]
 
@@ -141,6 +153,8 @@ def play_game(player_name):
     computer_hitpoints = 30
 
     while player_hitpoints > 0 and computer_hitpoints > 0:
+        display_element_levels()
+        
         computer = random.choice(elements)
         player = input("\n Choose your element (Fire, Lightning, Wind, Water or Earth): ").capitalize()
         
