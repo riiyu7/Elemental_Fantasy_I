@@ -111,7 +111,7 @@ def display_element_levels():
     Function which displays the current level of the players elements.
     """
     print("\n-------------------------------------------")
-    print("Current Elemenet Levels: ")
+    print("Current Element Levels: ")
     for element, level in element_levels.items():
         print(f"{element}: Level {level}")
     print("\n-------------------------------------------")
