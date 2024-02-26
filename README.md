@@ -24,49 +24,36 @@ https://pandao.github.io/editor.md/en.html
 - As a returning user, I would like to receive notifications on new updates, challenges or features, so that it keeps me coming back to play and not miss out on new content.
 - As a returning user, I would like to have an option to provide feedback, so I am able to help improve the game.
 
+## Flowchart
 
 ## Features
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ### Existing Features
 
-- **Title for feature #1**
+- **Welcome Message and Name Input** 
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - A Prompt which lets the user add their name to personalise the experience.
 
 ![screenshot](documentation/feature01.png)
 
-- **Title for feature #2**
+- **Play Game**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Menu option which allows users to jump straight into the game.
 
 ![screenshot](documentation/feature02.png)
 
-- **Title for feature #3**
+- **View Rules**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Menu option which allows users to get familiar with the game rules.
 
 ![screenshot](documentation/feature03.png)
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+- **Quit Game**
 
-Repeat as necessary for as many features as your site contains.
+    - Menu option which allows users to Quit the programme.
 
-Hint: the more, the merrier!
+![screenshot](documentation/feature03.png)
+
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
