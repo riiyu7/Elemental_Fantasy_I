@@ -64,6 +64,7 @@ Elemental Fantasy I is a terminal based turn based game implemented in Python . 
 - [Python](http://python.org) Used to develop server-side logic and game functions.
 - [Git](http://git-scm.com) A version control system used to track changes in the codebase.
 - [GitHub](http://github.com) Provides secure online storage for the project's code.
+- [visual studio code](https://code.visualstudio.com/) A code editor redefined and optimized for building and debugging modern web and cloud applications.
 - [Visual Studio Code](http://code.visualstudio.com) Served as the Intergrated Development Environment (IDE) for the project.
 - [Heroku](http://heroku.com) A cloud platform used for hosting the deployed back-end of the site.
 
@@ -101,6 +102,8 @@ The primary functions used on this application are:
     - This function detemins he outcome of the turn adjusting player and computer hitpoints based on the chosen move by the player and computer.
 - `capitlize()`
     - Function which capitlises the players input when they choose their element.
+- `display_element_levels()`
+    - Function which displays the current level of the players elements.
 
 ### Imports
 
@@ -205,17 +208,24 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+**Local Development**
 
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on Heroku.
+- `Environment Setup`: Local development occurred in a controlled setting on a personal computer, allowing swift testing and debugging.
+- `Access and Testing`: The game was exclusively accessible on the developer's machine, enabling rapid iterations and immediate feedback.
+- `Debugging Tools`: Local development provided access to comprehensive debugging tools and IDE features, facilitating efficient problem-solving. Visual Code specifically assisted me on debugging live code.
+- `Data Security`: Local environment will have fewer security measures compared to a production environment, as it is not publicly accessible.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+**Live Deployment**
+
+- `Scaling`: Deployed applications often need to scale to handle increased user loads. Heroku, provides scalability options to accommodate demand.
+- `Accessibility`:  Post-deployment, the game became publicly accessible worldwide, contrasting the local version confined to the developer's machine.
+- `Environment Consistency:`: Deployed applications often need to scale to handle increased user loads. Heroku, provides scalability options to accommodate demand.
+- `User Support`: With a live game, there's a need for a support system to address user queries, issues, or feedback.
+- `Cost Considerations`: Depending on the hosting platform, live deployment may involve costs associated with hosting services, storage, and additional resources.
 
 ## Credits
 
 ### Content
-
-
 
 | Source | Location | Notes |
 | --- | --- | --- |
