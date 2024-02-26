@@ -29,19 +29,18 @@ PP3 (Python-only):
 
 | Page | Expectation | Test | Result | Fix | Screenshot |
 | --- | --- | --- | --- | --- | --- |
-| Input Name | | | | | |
-| | Feature is expected record the user name throughtout the programme| Tested the feature by inputting 'Tally' | The feature behaved as expected, and it recorded the name 'Tally' | Test concluded and passed | ![screenshot](documentation/feature01.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature02.png) |
-| About | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature03.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature04.png) |
-| Gallery | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature05.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature06.png) |
-| Contact | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature07.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature08.png) |
-| repeat for all remaining pages | x | x | x | x | x |
+| Input Name | Feature is expected record the user name throughtout the programme| Tested the feature by inputting 'Tally' | The feature behaved as expected, and it recorded the name 'Tally' | Test concluded and passed | ![screenshot](documentation/input_name2.png) |
+| Option 1 - Play Game | Feature is expected to start the game when option '1' is inputted | Tested the feature by inputting '1' | The feature behaved as expected, and started the game.  | Test concluded and passed | ![screenshot](documentation/option_1.png) |
+| Option 2 - Rules/Instructions | Feature is expected to call show_rules function and display all print functions when option '2' is inputted | Tested the feature by inputting '2' | The feature behaved as expected, and displayed all print functions  | Test concluded and passed | ![screenshot](documentation/option_2.png) |
+| Option 3 - Quit Game | Feature is expected to do quit the game when option '3' is inputted| Tested the feature by inputting '3'| The feature behaved as expected, and quit the programme | Test concluded and passed | ![screenshot](documentation/option_3.png) |
+| Play Game | | | | | |
+| Fire Element | Feature is expected to do a 'Fire' attack when inputted and 'Fire level' should also go up | Tested the feature by inputting 'Fire' | | | ![screenshot](documentation/feature05.png) |
+| Lightning Element | Feature is expected to do a 'Lightning' attack when inputted and 'Lightning level' should also go up | Tested the feature by inputting 'Lightning' | | | ![screenshot](documentation/feature05.png) |
+| Wind Element | Feature is expected to do a 'Wind' attack when inputted and 'Wind level' should also go up | Tested the feature by inputting 'Wind' | | | ![screenshot](documentation/feature05.png) |
+| Water Element | Feature is expected to do a 'Water' attack when inputted and 'Water level' should also go up | Tested the feature by inputting 'Water' | | | ![screenshot](documentation/feature05.png) |
+| Earth Element | Feature is expected to do a 'Earth' attack when inputted and 'Earth level' should also go up | Tested the feature by inputting 'Earth' | | | ![screenshot](documentation/feature05.png) |
+
+
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
