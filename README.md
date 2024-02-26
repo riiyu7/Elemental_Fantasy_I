@@ -24,7 +24,6 @@ https://pandao.github.io/editor.md/en.html
 - As a returning user, I would like to receive notifications on new updates, challenges or features, so that it keeps me coming back to play and not miss out on new content.
 - As a returning user, I would like to have an option to provide feedback, so I am able to help improve the game.
 
-## Flowchart
 
 ## Features
 
@@ -103,30 +102,30 @@ class Person:
 
 The primary functions used on this application are:
 
-- `get_sales_data()`
-    - Get sales figures input from the user.
-- `validate_data()`
-    - Converts all string values into integers.
-- `update_worksheet()`
-    - Update the relevant worksheet with the data provided.
-- `calculate_surplus_data()`
-    - Compare sales with stock and calculate the surplus for each item type.
-- `get_last_5_entries_sales()`
-    - Collects columns of data from sales worksheet.
-- `calculate_stock_data()`
-    -  Calculate the average stock for each item type, adding 10%.
+
 - `main()`
     - Run all program functions.
+- `input_Player_name()`
+    - This function is used to get the player to input their name which will be used to personalise the experience.
+- `main_menu()`
+    - The main menu which displays options for the user to choose.
+- `get_menu_choice()`
+    - Function which takes in user input for menu choices.
+- `show_rules()`
+    - Function which prints game rules/instructions.
+- `play_game(player_name)`
+    - Main game function which takes in player inputs against their hitpoints as well as calling the player_name data.
+- `start_game(player_name)`
+    - Function used to display a message before starting the game as well as calling the player_name data.
+- `element_hitpoint_reduction(player_name, player_move, computer_move, player_hitpoints, computer_hitpoints)`
+    - Run all program functions.
+- `Capitlize()`
+    - Function which capitlises the players input when they choose their element.
 
 ### Imports
 
-I've used the following Python packages and/or external imported packages.
+I've used only one Python packages and/or external imported package:
 
-- `gspread`: used with the Google Sheets API
-- `google.oauth2.service_account`: used for the Google Sheets API credentials
-- `time`: used for adding time delays
-- `os`: used for adding a `clear()` function
-- `colorama`: used for including color in the terminal
 - `random`: used to get a random choice from a list
 
 ## Testing
@@ -268,45 +267,18 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
 | [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
 
-### Media
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-| Source | Location | Type | Notes |
-| --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
 
 ### Acknowledgements
 
 🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
+A few examples have been provided below to give you some ideas
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank my partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
-- I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
+- - I would like to thank my personal Tutor for support and guidance throughout the development of this project. Python lessons and project review have assisted with enhancing the overall project from a simple rock, paper scissors game.
+- I appreciate the resources and tutorials available online such as Stack Overflow and youtube and Youtube: NeuralNine  which assisted in creating basic structure of project from rock paper scissors
