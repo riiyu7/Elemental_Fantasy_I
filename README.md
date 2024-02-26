@@ -10,12 +10,6 @@ https://pandao.github.io/editor.md/en.html
 
 ## User Stories
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section, list all of your user stories for the project.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ### New Site Users
 
 - As a new user, I would like to see a simple yet effective user interface where I can easily navigate through all menus with ease.
@@ -25,11 +19,11 @@ In this section, list all of your user stories for the project.
 
 ### Returning Site Users
 
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning user, I would like to see a multiplayer feature, so I am able to play against friends or family.
+- As a returning user, I would like to see the game implement challenges or new elements, so that it can keep me engaged to play more regularly.
+- As a returning user, I would like to receive notifications on new updates, challenges or features, so that it keeps me coming back to play and not miss out on new content.
+- As a returning user, I would like to have an option to provide feedback, so I am able to help improve the game.
+
 
 ## Features
 
