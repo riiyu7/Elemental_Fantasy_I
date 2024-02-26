@@ -1,40 +1,12 @@
 # [ELEMENTAL FANTASY I](https://elemental-fantasy-1-3deca635fd1a.herokuapp.com)
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
-
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
-
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
-
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
-https://ui.dev/amiresponsive?url=https://elemental-fantasy-1-3deca635fd1a.herokuapp.com
-
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
+Elemental Fantasy I is a terminal based turn based game implemented in Python . The projecth runs in the Code Institute mock terminal on Heroku. The game takes the simple style of Rock, Paper, Scissors and adds a Final Fantasy twist with elements and hit points (HP). Dive right in to this fun and user-friendly game to defeat your opponent.
 
 ![screenshot](documentation/mockup.png)
 
 Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
 Find out more about using Markdown elements here:
 https://pandao.github.io/editor.md/en.html
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-## UX
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section, you will briefly explain your design processes.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ## User Stories
 
@@ -46,11 +18,10 @@ In this section, list all of your user stories for the project.
 
 ### New Site Users
 
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
+- As a new user, I would like to see a simple yet effective user interface where I can easily navigate through all menus with ease.
+- As a new user, I would like to be able to understand the rules/instructions of the game easily, so I do not get confused while playing the game.
+- As a new user, I would like to be able to dive into the game quickly and without the need to create an account to play.
+- As a new user, I would want to be able to score counter, so that I can view how many wins I have.
 
 ### Returning Site Users
 
