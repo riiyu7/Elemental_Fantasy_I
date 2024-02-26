@@ -232,8 +232,8 @@ You can fork this repository by using the following steps:
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
 | [StackOverflow](https://stackoverflow.com/questions/34192588/simple-menu-in-python-3) | menu | Creating simple menus |
-| [StackOverflow](https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python) | Rock, Papeer, Scissors | tutorial for creating the structure of my game |
-| [StackOverflow](https://stackoverflow.com/questions/51353831/how-to-create-a-rock-paper-scissors-program) | Rock, Papeer, Scissors | tutorial for creating the structure of my game |
+| [StackOverflow](https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python) | Rock, Paper, Scissors | tutorial for creating the structure of my game |
+| [StackOverflow](https://stackoverflow.com/questions/51353831/how-to-create-a-rock-paper-scissors-program) | Rock, Paper, Scissors | tutorial for creating the structure of my game |
 | [YouTube](https://www.youtube.com/watch?v=55tcf9AA9hQ) | NeuralNine - Rock, Papeer, Scissors | tutorial for creating the structure of my game |
 | [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
 
