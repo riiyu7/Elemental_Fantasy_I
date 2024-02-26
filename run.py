@@ -4,6 +4,7 @@ import random
 
 # Attribution: Stack Overflow - Menu -  https://stackoverflow.com/questions/34192588/simple-menu-in-python-3
 
+
 def main():
     print(" ---------------------------------")
     print("| Welcome to Elemental Fantasy I  |")
@@ -31,6 +32,7 @@ def main():
         else:
             print("Invalid choice. Please choose a valid option.")
 
+
 def input_player_name():
 
     """
@@ -53,8 +55,8 @@ def main_menu():
     print("2. Rules/Instructions")
     print("3. Quit Game")
 
+
 def get_menu_choice():
-    
     while True:
         main_menu()
         try:
@@ -70,8 +72,8 @@ def show_rules():
     """
     Function which prints game rules/instructions.
     """
-    print(f"""==================== Instructions for Elemental Fantasy I ======================
-    Gameplay: 
+    print(f"""=================== Instructions for Elemental Fantasy I =====================
+    Gameplay:
     You battle with the computer using the five available elements:
     Fire, Lightning, Wind, Water & Earth.
     The aim of the game is to pick from one of the 5 elements
@@ -82,17 +84,17 @@ def show_rules():
     Cancelled Out - Hit did no damage to player or computer
     Failed - Hit does no damge to enemines HP
     """)
-    print(f"""==================== Element levels for Elemental Fantasy I ======================
-    Every element starts at 5 attack power towards hitpoints 
+    print(f"""=================== Element levels for Elemental Fantasy I =====================
+    Every element starts at 5 attack power towards hitpoints
     After every successful the element which was successful
     will level up by 5 till it reaches 15.
     for example:
-    If a player successfully lands his first attack 
+    If a player successfully lands his first attack
     with 'Fire' being at an attack power of 5
-    The next turn the same element will now have an attack power of 10 
+    The next turn the same element will now have an attack power of 10
     """)
-    print(f"""==================== Element Rules for Elemental Fantasy I ======================
-    Each element has its strengths and weaknesses: 
+    print(f"""=================== Element Rules for Elemental Fantasy I =====================
+    Each element has its strengths and weaknesses:
     Fire beats Wind & Lightning but is weak against Earth and Water.
     Lightning beats Wind & Water but is weak against Earth and Fire.
     Wind beats Water & Earth but is weak against Fire and Lightning.
@@ -107,6 +109,7 @@ def show_rules():
 # Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/51353831/how-to-create-a-rock-paper-scissors-program
 # Attribution - Youtube: NeuralNine - creating basic structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
 
+
 def display_element_levels():
     """
     Function which displays the current level of the players elements.
@@ -116,7 +119,6 @@ def display_element_levels():
     for element, level in element_levels.items():
         print(f"{element}: Level {level}")
     print("\n-------------------------------------------")
-
 
 
 elements = ["Fire", "Lightning", "Wind", "Water", "Earth"]
@@ -133,9 +135,9 @@ element_rules = {
 element_levels = {
     'Fire': 1,
     'Lightning': 1,
-    'Wind': 1, 
-    'Water': 1, 
-    'Earth': 1, 
+    'Wind': 1,
+    'Water': 1,
+    'Earth': 1,
 }
 
 # Player & Computer hitpoint values
@@ -156,20 +158,19 @@ def play_game(player_name):
 
     while player_hitpoints > 0 and computer_hitpoints > 0:
         display_element_levels()
-        
+
         computer = random.choice(elements)
         player = input("\n Choose your element (Fire, Lightning, Wind, Water or Earth): ").capitalize()
-        
+
         if player not in elements:
             print("Invalid input. Please choose a valid element.")
             continue
-        
+
         print(f"{player_name}'s choice: {player}")
         print(f"Computers choice: {computer}")
         print("-----------------------------------------")
 
         player_hitpoints, computer_hitpoints = element_hitpoint_reduction(player_name, player, computer, player_hitpoints, computer_hitpoints)
-
 
         if player_hitpoints <= 0:
             print(f"{player_name} has lost Game Over.")
@@ -182,15 +183,17 @@ def play_game(player_name):
 # Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
 # Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/51353831/how-to-create-a-rock-paper-scissors-program
 
+
 def start_game(player_name):
     """
     Function used to display a message before starting the game.
     """
     print(f"\n Get ready to battle {player_name}... ")
 
+
 def element_hitpoint_reduction(player_name, player_move, computer_move, player_hitpoints, computer_hitpoints):
     """
-    Function for which elements are chosen and hitpoints 
+    Function for which elements are chosen and hitpoints.
     """
     player_level = element_levels[player_move]
     computer_level = element_levels[computer_move]
@@ -199,14 +202,14 @@ def element_hitpoint_reduction(player_name, player_move, computer_move, player_h
         computer_hitpoints -= 5 * player_level
         print(f"{player_name} chose {player_move} and succesfully beat {computer_move}")
         print(f"Computer hitpoints reduced to {computer_hitpoints}")
-        if player_level < 3: 
+        if player_level < 3:
             element_levels[player_move] += 1
     elif player_move in element_rules[computer_move]['win_against']:
-        player_hitpoints -= 5 * computer_level 
+        player_hitpoints -= 5 * computer_level
         print(f"Computer chose {computer_move} and {player_name}'s {player_move} failed")
         print(f"{player_name} hitpoints reduced to {player_hitpoints}")
-        if computer_level < 3: 
-            element_levels[computer_move] += 1 
+        if computer_level < 3:
+            element_levels[computer_move] += 1
     else:
         print("Move Cancelled Out - no hitpoint reduction")
 
@@ -216,6 +219,7 @@ def element_hitpoint_reduction(player_name, player_move, computer_move, player_h
     print("\n-----------------------------------------")
 
     return player_hitpoints, computer_hitpoints
+
 
 if __name__ == "__main__":
     main()
