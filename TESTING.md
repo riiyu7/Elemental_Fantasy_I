@@ -41,33 +41,20 @@ PP3 (Python-only):
 | Earth Element | Feature is expected to do a 'Earth' attack when inputted and 'Earth level' should also go up | Tested the feature by inputting 'Earth' | | | ![screenshot](documentation/feature05.png) |
 
 
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ## User Story Testing
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Testing user stories is actually quite simple, once you've already got the stories defined on your README.
-
-Most of your project's **features** should already align with the **user stories**,
-so this should as simple as creating a table with the user story, matching with the re-used screenshot
-from the respective feature.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature01.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature02.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature03.png) |
+| As a new site user, I would like to see a simple yet effective user interface where I can easily navigate through all menus with ease.| ![screenshot](documentation/feature01.png) |
+| As a new site user, I would like to be able to understand the rules/instructions of the game easily, so I do not get confused while playing the game. | ![screenshot](documentation/feature02.png) |
+| As a new site user, I would like to be able to dive into the game quickly and without the need to create an account to play. | ![screenshot](documentation/feature03.png) |
+| As a new site user, I would like to be able to dive into the game quickly and without the need to create an account to play. | ![screenshot](documentation/feature03.png) |
+
 | As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature04.png) |
 | As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature05.png) |
 | As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature06.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature07.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature08.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature09.png) |
-| repeat for all remaining user stories | x |
+
+
 
 ## Bugs
 
