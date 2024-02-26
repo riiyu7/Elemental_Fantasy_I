@@ -59,21 +59,13 @@ https://pandao.github.io/editor.md/en.html
 
 ### Future Features
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- Title for future feature #1
-    - Any additional notes about this feature.
-- Title for future feature #2
-    - Any additional notes about this feature.
-- Title for future feature #3
-    - Any additional notes about this feature.
+- Graphic User Interface Update
+    - Implement a more user-friendly graphic user interface which lets players see their character battle against the opponent.
+- Special Elements
+    - Implement special elements. That provide the user’s with elements that will only be able to be used certain times during the game such as Cure (Heal user’s hit points), Poison(reduce user’s hit points after every turn) and Protect (Increases users defence against attacks).
+- Multiple Enemies and level up system
+    - Implement a level up system where the user’s elements and hit points increase the more they play. As players progress through the level up system multiple enemies will be introduced also to keep the user intrigued and provide more challenges.
 
 ## Tools & Technologies Used
 
