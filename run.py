@@ -2,7 +2,7 @@ import random
 
 # Start Game Functions.
 
-# Attribution: Stack Overflow - Menu -  https://stackoverflow.com/questions/34192588/simple-menu-in-python-3
+# Attribution: Stack Overflow - Men
 
 
 def main():
@@ -72,7 +72,7 @@ def show_rules():
     """
     Function which prints game rules/instructions.
     """
-    print(f"""=================== Instructions for Elemental Fantasy I =====================
+    print(f"""============ Instructions for Elemental Fantasy I ==============
     Gameplay:
     You battle with the computer using the five available elements:
     Fire, Lightning, Wind, Water & Earth.
@@ -84,7 +84,7 @@ def show_rules():
     Cancelled Out - Hit did no damage to player or computer
     Failed - Hit does no damge to enemines HP
     """)
-    print(f"""=================== Element levels for Elemental Fantasy I =====================
+    print(f"""============ Element levels for Elemental Fantasy I =============
     Every element starts at 5 attack power towards hitpoints
     After every successful the element which was successful
     will level up by 5 till it reaches 15.
@@ -93,7 +93,7 @@ def show_rules():
     with 'Fire' being at an attack power of 5
     The next turn the same element will now have an attack power of 10
     """)
-    print(f"""=================== Element Rules for Elemental Fantasy I =====================
+    print(f"""============ Element Rules for Elemental Fantasy I ============
     Each element has its strengths and weaknesses:
     Fire beats Wind & Lightning but is weak against Earth and Water.
     Lightning beats Wind & Water but is weak against Earth and Fire.
@@ -105,9 +105,9 @@ def show_rules():
 # Game Rules
 
 # Attribution - Personal Tutor - Tutoring on python for creating game elements
-# Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
-# Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/51353831/how-to-create-a-rock-paper-scissors-program
-# Attribution - Youtube: NeuralNine - creating basic structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
+# Attribution - Stack Overflow - creating  basic structure of project
+# Attribution - Stack Overflow - creating  basic structure of project
+# Attribution - Youtube: NeuralNine - creating basic structure of project
 
 
 def display_element_levels():
@@ -143,9 +143,9 @@ element_levels = {
 # Player & Computer hitpoint values
 
 # Attribution - Personal Tutor - Tutoring on python for creating game elements
-# Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
-# Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/51353831/how-to-create-a-rock-paper-scissors-program
-# Attribution - Youtube: NeuralNine - creating basic structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
+# Attribution - Stack Overflow - creating  basic structure of project
+# Attribution - Stack Overflow - creating  basic structure of project
+# Attribution - Youtube: NeuralNine - creating basic structure of project
 
 
 def play_game(player_name):
@@ -179,9 +179,10 @@ def play_game(player_name):
 
 # Start Game Functions
 
-# Attribution - Personal Tutor - Tutoring on python for creating game elements.
-# Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
-# Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/51353831/how-to-create-a-rock-paper-scissors-program
+# Attribution - Personal Tutor - Tutoring on python for creating game elements
+# Attribution - Stack Overflow - creating  basic structure of project
+# Attribution - Stack Overflow - creating  basic structure of project
+# Attribution - Youtube: NeuralNine - creating basic structure of project
 
 
 def start_game(player_name):
