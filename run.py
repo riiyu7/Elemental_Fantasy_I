@@ -102,8 +102,9 @@ def show_rules():
 
 # Game Rules
 
-# Attribution - Personal Tutor - Tutoring on python for creating game elements.
+# Attribution - Personal Tutor - Tutoring on python for creating game elements
 # Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
+# Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/51353831/how-to-create-a-rock-paper-scissors-program
 # Attribution - Youtube: NeuralNine - creating basic structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
 
 def display_element_levels():
@@ -139,8 +140,9 @@ element_levels = {
 
 # Player & Computer hitpoint values
 
-# Attribution - Personal Tutor - Tutoring on python for creating game elements.
+# Attribution - Personal Tutor - Tutoring on python for creating game elements
 # Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
+# Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/51353831/how-to-create-a-rock-paper-scissors-program
 # Attribution - Youtube: NeuralNine - creating basic structure of project - https://www.youtube.com/watch?v=55tcf9AA9hQ
 
 
@@ -178,7 +180,7 @@ def play_game(player_name):
 
 # Attribution - Personal Tutor - Tutoring on python for creating game elements.
 # Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
-
+# Attribution - Stack Overflow - creating  basic structure of project - https://stackoverflow.com/questions/51353831/how-to-create-a-rock-paper-scissors-program
 
 def start_game(player_name):
     """
