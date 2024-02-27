@@ -160,7 +160,7 @@ def play_game(player_name):
         display_element_levels()
 
         computer = random.choice(elements)
-        player = input("\n Choose your element (Fire, Lightning, Wind, Water or Earth): ").capitalize()
+        player = input("\n Choose your element (Fire, Lightning, Wind, Water or Earth): ").capitalize()  # noqa
 
         if player not in elements:
             print("Invalid input. Please choose a valid element.")
@@ -170,7 +170,7 @@ def play_game(player_name):
         print(f"Computers choice: {computer}")
         print("-----------------------------------------")
 
-        player_hitpoints, computer_hitpoints = element_hitpoint_reduction(player_name, player, computer, player_hitpoints, computer_hitpoints)
+        player_hitpoints, computer_hitpoints = element_hitpoint_reduction(player_name, player, computer, player_hitpoints, computer_hitpoints)  # noqa
 
         if player_hitpoints <= 0:
             print(f"{player_name} has lost Game Over.")
@@ -192,7 +192,7 @@ def start_game(player_name):
     print(f"\n Get ready to battle {player_name}... ")
 
 
-def element_hitpoint_reduction(player_name, player_move, computer_move, player_hitpoints, computer_hitpoints):
+def element_hitpoint_reduction(player_name, player_move, computer_move, player_hitpoints, computer_hitpoints):  # noqa
     """
     Function for which elements are chosen and hitpoints.
     """
@@ -201,13 +201,17 @@ def element_hitpoint_reduction(player_name, player_move, computer_move, player_h
 
     if computer_move in element_rules[player_move]['win_against']:
         computer_hitpoints -= 5 * player_level
-        print(f"{player_name} chose {player_move} and succesfully beat {computer_move}")
+        print(
+            f"{player_name} chose {player_move} and "
+            f"succesfully beat {computer_move}")
         print(f"Computer hitpoints reduced to {computer_hitpoints}")
         if player_level < 3:
             element_levels[player_move] += 1
     elif player_move in element_rules[computer_move]['win_against']:
         player_hitpoints -= 5 * computer_level
-        print(f"Computer chose {computer_move} and {player_name}'s {player_move} failed")
+        print(
+            f"Computer chose {computer_move} and "
+            f"{player_name}'s {player_move} failed")
         print(f"{player_name} hitpoints reduced to {player_hitpoints}")
         if computer_level < 3:
             element_levels[computer_move] += 1
