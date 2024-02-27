@@ -10,7 +10,7 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 | File | CI URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| run.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/riiyu7/elemental_fantasy_i/main/run.py) | ![screenshot](documentation/py-validation-run.png) | W291 trailing whitespace |
+| run.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/riiyu7/elemental_fantasy_i/main/run.py) | ![screenshot](documentation/py-validation-run.png) | 	Pass: No errors |
 
 
 ## Defensive Programming
@@ -27,6 +27,10 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | Wind Element | Feature is expected to do a 'Wind' attack when inputted and 'Wind level' should also go up | Tested the feature by inputting 'Wind' | | | ![screenshot](documentation/feature05.png) |
 | Water Element | Feature is expected to do a 'Water' attack when inputted and 'Water level' should also go up | Tested the feature by inputting 'Water' | | | ![screenshot](documentation/feature05.png) |
 | Earth Element | Feature is expected to do a 'Earth' attack when inputted and 'Earth level' should also go up | Tested the feature by inputting 'Earth' | | | ![screenshot](documentation/feature05.png) |
+| Input Errors | | | | | |
+| Main Menu | Feature is expected to show Error if incorrect option is chosen| Tested the feature by inputting '4'| The feature behaved as expected, and showed an input error | Test concluded and passed | ![screenshot](documentation/menu_invalid_choice.png) |
+| Game Input 1 | Feature is expected to show Error if incorrect option is chosen| Tested the feature by inputting '12'| The feature behaved as expected, and showed an input error | Test concluded and passed | ![screenshot](documentation/game_invalid_choice.png) |
+| Game Input 1 | Feature is expected to show Error if incorrect option is chosen| Tested the feature by inputting 'Firee'| The feature behaved as expected, and showed an input error | Test concluded and passed | ![screenshot](documentation/game_invalid_choice2.png) |
 
 
 ## User Story Testing
