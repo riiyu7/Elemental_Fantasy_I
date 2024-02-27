@@ -2,7 +2,7 @@ import random
 
 # Start Game Functions.
 
-# Attribution: Stack Overflow - Men
+# Attribution: Stack Overflow - Menu
 
 
 def main():
@@ -39,10 +39,14 @@ def input_player_name():
     This function is used to get the player to input their name
     which will be used to personalise the experience.
     """
-
-    name = input("\n Please enter your name: ")
+    name = None
+    while True:
+        name = input("\n Please enter your name (Please use alphanumeric only): ")
+        if name.isalnum():
+            break
+        else:
+            print(f"{name} is invalid. Please use alphanumeric only.")
     return name
-
 
 # Menu Functions
 
@@ -122,7 +126,6 @@ def display_element_levels():
 
 
 elements = ["Fire", "Lightning", "Wind", "Water", "Earth"]
-special = ["Cure", "Poison", "Protect", "Reduce"]
 
 element_rules = {
     'Fire': {'win_against': ['Wind', 'Lightning']},
@@ -163,7 +166,7 @@ def play_game(player_name):
         player = input("\n Choose your element (Fire, Lightning, Wind, Water or Earth): ").capitalize()  # noqa
 
         if player not in elements:
-            print("Invalid input. Please choose a valid element.")
+            print(f"{player} is an invalid input. Please choose a valid element.")
             continue
 
         print(f"{player_name}'s choice: {player}")
@@ -212,7 +215,7 @@ def element_hitpoint_reduction(player_name, player_move, computer_move, player_h
         print(
             f"Computer chose {computer_move} and "
             f"{player_name}'s {player_move} failed")
-        print(f"{player_name} hitpoints reduced to {player_hitpoints}")
+        print(f"{player_name}'s hitpoints reduced to {player_hitpoints}")
         if computer_level < 3:
             element_levels[computer_move] += 1
     else:

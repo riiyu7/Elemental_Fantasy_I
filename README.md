@@ -65,7 +65,6 @@ Elemental Fantasy I is a terminal based turn based game implemented in Python . 
 - [Git](http://git-scm.com) A version control system used to track changes in the codebase.
 - [GitHub](http://github.com) Provides secure online storage for the project's code.
 - [visual studio code](https://code.visualstudio.com/) A code editor redefined and optimized for building and debugging modern web and cloud applications.
-- [Visual Studio Code](http://code.visualstudio.com) Served as the Intergrated Development Environment (IDE) for the project.
 - [Heroku](http://heroku.com) A cloud platform used for hosting the deployed back-end of the site.
 
 ## Data Model
@@ -235,11 +234,8 @@ You can fork this repository by using the following steps:
 | [StackOverflow](https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python) | Rock, Paper, Scissors | tutorial for creating the structure of my game |
 | [StackOverflow](https://stackoverflow.com/questions/51353831/how-to-create-a-rock-paper-scissors-program) | Rock, Paper, Scissors | tutorial for creating the structure of my game |
 | [YouTube](https://www.youtube.com/watch?v=55tcf9AA9hQ) | NeuralNine - Rock, Papeer, Scissors | tutorial for creating the structure of my game |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
-
 
 ### Acknowledgements
-
 
 This section acknowledges the sources for my inspiration and assistance I received to help contribute to the development of Elemental Fantasy I. I big thank you to everyone who helped me achieve this goal of creating Elemental Fantasy I.
 
