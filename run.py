@@ -160,6 +160,14 @@ element_levels = {
     'Earth': 1,
 }
 
+computer_element_levels = {
+    'Fire': 1,
+    'Lightning': 1,
+    'Wind': 1,
+    'Water': 1,
+    'Earth': 1,
+}
+
 # Player & Computer hitpoint values
 
 # Attribution - Personal Tutor - Tutoring on python for creating game elements
@@ -219,7 +227,7 @@ def element_hitpoint_reduction(player_name, player_move, computer_move, player_h
     Function for which elements are chosen and hitpoints.
     """
     player_level = element_levels[player_move]
-    computer_level = element_levels[computer_move]
+    computer_level = computer_element_levels[computer_move]
 
     if computer_move in element_rules[player_move]['win_against']:
         computer_hitpoints -= 5 * player_level
@@ -236,7 +244,7 @@ def element_hitpoint_reduction(player_name, player_move, computer_move, player_h
             f"{player_name}'s {player_move} failed")
         print(f"{player_name}'s hitpoints reduced to {player_hitpoints}")
         if computer_level < 3:
-            element_levels[computer_move] += 1
+            computer_element_levels[computer_move] += 1
     else:
         print("Move Cancelled Out - no hitpoint reduction")
 
