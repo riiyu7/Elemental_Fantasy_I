@@ -76,10 +76,14 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 - Clear Function Bug:
 
-    ![screenshot](documentation/bugs.png)
+    ![screenshot](documentation/rules.png)
 
-    - To fix this, I amended line 156 and 150 where the code win_against was in and put them both in '' so the amended code was 'win_against'.
+    - To fix this, I imported `os` and created a clear function, however as the clear function only clears 24 lines I had to add a empty input which wasinput("Press ENTER to continue") to break the rules
 
 ## Unfixed Bugs
 
-There are no remaining bugs that I am aware of.
+- Heroku limitation
+
+    ![screenshot](documentation/rules.png)
+
+    - Heroku has a limitation with users trying to copy and/or stop the application manually using CTRL+C. However, this does not break the game and doesnt reduce the functionality of the game.
