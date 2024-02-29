@@ -84,6 +84,6 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 - Heroku limitation
 
-    ![screenshot](documentation/rules.png)
+    ![screenshot](documentation/unfixed_bug.png)
 
     - Heroku has a limitation with users trying to copy and/or stop the application manually using CTRL+C. However, this does not break the game and doesnt reduce the functionality of the game.
