@@ -60,6 +60,7 @@ def clear():
 
 # Menu Functions
 
+
 def main_menu():
     """
     The main menu which displays options for the user to choose.
