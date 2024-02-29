@@ -171,6 +171,20 @@ computer_element_levels = {
     'Earth': 1,
 }
 
+def coloured_elements(element):
+    """
+    Function to get coloured display of an element
+    """
+    colours = {
+        'Fire': Fore.RED,
+        'Lightning': Fore.YELLOW,
+        'Wind': Fore.WHITE,
+        'Water': Fore.BLUE,
+        'Earth': Fore.GREEN,
+    }
+
+    return f"{colours.get(element, '')}{element}{Fore.RESET}"
+
 # Player & Computer hitpoint values
 
 # Attribution - Personal Tutor - Tutoring on python for creating game elements
@@ -200,8 +214,8 @@ def play_game(player_name):
                 f"Please choose a valid element.")
             continue
 
-        print(f"{player_name}'s choice: {player}")
-        print(f"Computers choice: {computer}")
+        print(f"{player_name}'s choice: {coloured_elements(player)}")
+        print(f"Computers choice: {coloured_elements(computer)}")
         print("-----------------------------------------")
 
         player_hitpoints, computer_hitpoints = element_hitpoint_reduction(player_name, player, computer, player_hitpoints, computer_hitpoints)  # noqa
