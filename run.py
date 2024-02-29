@@ -60,7 +60,6 @@ def clear():
 
 # Menu Functions
 
-
 def main_menu():
     """
     The main menu which displays options for the user to choose.
@@ -97,8 +96,10 @@ def show_rules():
     On what the computer chooses the attack could either be:
     Successful - Hit reduced enemines HP
     Cancelled Out - Hit did no damage to player or computer
-    Failed - Hit does no damage to enemines HP
+    Failed - Hit does no damge to enemines HP
     """)
+    input("Press ENTER to continue")
+    clear()
     print(f"""============ Element levels for Elemental Fantasy I =============
     Every element starts at 5 attack power towards hitpoints
     After every successful the element which was successful
@@ -108,6 +109,8 @@ def show_rules():
     with 'Fire' being at an attack power of 5
     The next turn the same element will now have an attack power of 10
     """)
+    input("Press ENTER to continue")
+    clear()
     print(f"""============ Element Rules for Elemental Fantasy I ============
     Each element has its strengths and weaknesses:
     Fire beats Wind & Lightning but is weak against Earth and Water.
@@ -116,6 +119,8 @@ def show_rules():
     Water beats Earth & Fire but is weak against Wind and Lightning.
     Earth beats Lightning & Fire but is weak against Water and Wind.
     """)
+    input("Press ENTER to continue")
+    clear()
 
 # Game Rules
 
