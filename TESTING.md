@@ -74,6 +74,12 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
     - To fix this, I amended line 159 and 164 where the code  print(f"Computer hitpoints reduced to {hitpoints[player_move]}") & print(f"{player_name} hitpoints reduced to {hitpoints[computer_move]}") was ameded to print(f"Computer hitpoints reduced to {computer_hitpoints}") & print(f"{player_name} hitpoints reduced to {player_hitpoints}")
 
+- Clear Function Bug:
+
+    ![screenshot](documentation/bugs.png)
+
+    - To fix this, I amended line 156 and 150 where the code win_against was in and put them both in '' so the amended code was 'win_against'.
+
 ## Unfixed Bugs
 
 There are no remaining bugs that I am aware of.

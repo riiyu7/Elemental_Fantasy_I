@@ -97,7 +97,7 @@ def show_rules():
     On what the computer chooses the attack could either be:
     Successful - Hit reduced enemines HP
     Cancelled Out - Hit did no damage to player or computer
-    Failed - Hit does no damge to enemines HP
+    Failed - Hit does no damage to enemines HP
     """)
     print(f"""============ Element levels for Elemental Fantasy I =============
     Every element starts at 5 attack power towards hitpoints
