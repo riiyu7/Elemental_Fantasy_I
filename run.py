@@ -150,6 +150,7 @@ def display_element_levels():
     print("\n-------------------------------------------")
     """
 
+
 elements = ["Fire", "Lightning", "Wind", "Water", "Earth"]
 
 element_rules = {
@@ -175,6 +176,7 @@ computer_element_levels = {
     'Water': 1,
     'Earth': 1,
 }
+
 
 def add_coloured_elements(element):
     """
