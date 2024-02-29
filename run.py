@@ -1,5 +1,8 @@
 import random
 import os
+import colorama
+from colorama import Fore, Back, Style
+colorama.init()
 
 # Start Game Functions.
 
