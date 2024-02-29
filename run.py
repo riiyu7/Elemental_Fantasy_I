@@ -1,4 +1,5 @@
 import random
+import os
 
 # Start Game Functions.
 
@@ -47,6 +48,14 @@ def input_player_name():
         else:
             print(f"{name} is invalid. Please use alphanumeric only.")
     return name
+
+# Clear Function
+
+def clear():
+    """
+    Clear function to clean-up the terminal so things don't get messy.
+    """
+    os.system("cls" if os.name == "nt" else "clear")
 
 # Menu Functions
 
