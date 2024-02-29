@@ -140,10 +140,15 @@ def display_element_levels():
     """
     print("\n-------------------------------------------")
     print("Current Element Levels: ")
+    for element in elements:
+        level = element_levels[element]
+        coloured_element = add_coloured_elements(element)
+        print(f"{coloured_element}: Level {level}")
+    """
     for element, level in element_levels.items():
         print(f"{element}: Level {level}")
     print("\n-------------------------------------------")
-
+    """
 
 elements = ["Fire", "Lightning", "Wind", "Water", "Earth"]
 
@@ -171,7 +176,7 @@ computer_element_levels = {
     'Earth': 1,
 }
 
-def coloured_elements(element):
+def add_coloured_elements(element):
     """
     Function to get coloured display of an element
     """
@@ -183,7 +188,7 @@ def coloured_elements(element):
         'Earth': Fore.GREEN,
     }
 
-    return f"{colours.get(element, '')}{element}{Fore.RESET}"
+    return f"{colours[element]}{element}{Style.RESET_ALL}"
 
 # Player & Computer hitpoint values
 
@@ -214,8 +219,8 @@ def play_game(player_name):
                 f"Please choose a valid element.")
             continue
 
-        print(f"{player_name}'s choice: {coloured_elements(player)}")
-        print(f"Computers choice: {coloured_elements(computer)}")
+        print(f"{player_name}'s choice: {add_coloured_elements(player)}")
+        print(f"Computers choice: {add_coloured_elements(computer)}")
         print("-----------------------------------------")
 
         player_hitpoints, computer_hitpoints = element_hitpoint_reduction(player_name, player, computer, player_hitpoints, computer_hitpoints)  # noqa
