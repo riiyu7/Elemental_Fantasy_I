@@ -183,7 +183,9 @@ def play_game(player_name):
         player = input("\n Choose your element (Fire, Lightning, Wind, Water or Earth): ").capitalize()  # noqa
 
         if player not in elements:
-            print(f"{player} is an invalid input. Please choose a valid element.")
+            print(
+                f"{player} is an invalid input. "
+                f"Please choose a valid element.")
             continue
 
         print(f"{player_name}'s choice: {player}")
