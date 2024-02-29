@@ -42,7 +42,7 @@ def input_player_name():
     """
     name = None
     while True:
-        name = input("\n Please enter your name (Please use alphanumeric only): ")
+        name = input("\n Please enter your name (Use alphanumeric only): ")
         if name.isalnum():
             break
         else:
@@ -51,6 +51,7 @@ def input_player_name():
 
 # Clear Function
 
+
 def clear():
     """
     Clear function to clean-up the terminal so things don't get messy.
@@ -58,6 +59,7 @@ def clear():
     os.system("cls" if os.name == "nt" else "clear")
 
 # Menu Functions
+
 
 def main_menu():
     """
