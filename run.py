@@ -176,7 +176,7 @@ computer_element_levels = {
 
 def play_game(player_name):
     start_game(player_name)
-     """
+    """
     Function used to display a message before starting the game.
     Attribution: Stack Overflow - creating  basic structure of project
     https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python  # noqa
