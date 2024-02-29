@@ -108,7 +108,8 @@ The primary functions used on this application are:
 
 I've used only one Python packages and/or external imported package:
 
-- `random`: used to get a random choice from a list
+- `random`: used to get a random choice from a list.
+- `os`: used to clen-up the terminal.
 
 ## Testing
 
