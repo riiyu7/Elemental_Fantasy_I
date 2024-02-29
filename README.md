@@ -105,6 +105,8 @@ The primary functions used on this application are:
     - Function which displays the current level of the players elements.
 - `clear()`
     - Clear function to clean-up the terminal so things don't get messy.
+- `coloured_elements(element)`
+    - Function to display element colours
 
 ### Imports
 
