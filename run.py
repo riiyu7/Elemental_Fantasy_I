@@ -172,14 +172,15 @@ computer_element_levels = {
 
 # Attribution - Personal Tutor - Tutoring on python for creating game elements
 # Attribution - Stack Overflow - creating  basic structure of project
-# Attribution - Stack Overflow - creating  basic structure of project
-# Attribution - Youtube: NeuralNine - creating basic structure of project
 
 
 def play_game(player_name):
     start_game(player_name)
-    """
-    Main game function which takes in player inputs against their hitpoints
+     """
+    Function used to display a message before starting the game.
+    Attribution: Stack Overflow - creating  basic structure of project
+    https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python  # noqa
+    Attribution: Youtube: NeuralNine - creating basic structure of project # noqa
     """
     player_hitpoints = 50
     computer_hitpoints = 50
