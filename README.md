@@ -103,6 +103,8 @@ The primary functions used on this application are:
     - Function which capitlises the players input when they choose their element.
 - `display_element_levels()`
     - Function which displays the current level of the players elements.
+- `clear()`
+    - Clear function to clean-up the terminal so things don't get messy.
 
 ### Imports
 
