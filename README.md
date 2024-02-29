@@ -64,8 +64,9 @@ Elemental Fantasy I is a terminal based turn based game implemented in Python . 
 - [Python](http://python.org) Used to develop server-side logic and game functions.
 - [Git](http://git-scm.com) A version control system used to track changes in the codebase.
 - [GitHub](http://github.com) Provides secure online storage for the project's code.
-- [visual studio code](https://code.visualstudio.com/) A code editor redefined and optimized for building and debugging modern web and cloud applications.
+- [Cisual Studio Code](https://code.visualstudio.com/) A code editor redefined and optimized for building and debugging modern web and cloud applications.
 - [Heroku](http://heroku.com) A cloud platform used for hosting the deployed back-end of the site.
+- [Colourama](https://pypi.org/) Colorama is a library that allows the colour of text.
 
 ## Data Model
 
@@ -114,8 +115,9 @@ The primary functions used on this application are:
 
 I've used only one Python packages and/or external imported package:
 
-- `random`: used to get a random choice from a list.
-- `os`: used to clen-up the terminal.
+- `random`: Used to get a random choice from a list.
+- `os`: Used to clean-up the terminal.
+- `colorama`: Used to produce colored terminal text 
 
 ## Testing
 
@@ -137,7 +139,6 @@ Deployment steps are as follows, after account setup:
 - Select **New** in the top-right corner of your Heroku Dashboard, and select **Create new app** from the dropdown menu.
 - Your app name must be unique, and then choose a region closest to you (EU or USA), and finally, select **Create App**.
 - From the new app **Settings**, click **Reveal Config Vars**, and set the value of KEY to `PORT`, and the value to `8000` then select *add*.
-- If using any confidential credentials, such as CREDS.JSON, then these should be pasted in the Config Variables as well.
 - Further down, to support dependencies, select **Add Buildpack**.
 - The order of the buildpacks is important, select `Python` first, then `Node.js` second. (if they are not in this order, you can drag them to rearrange them)
 
@@ -180,8 +181,6 @@ This project can be cloned or forked in order to make a local copy on your own s
 For either method, you will need to install any applicable packages found within the *requirements.txt* file.
 
 - `pip3 install -r requirements.txt`.
-
-If using any confidential credentials, such as `CREDS.json` or `env.py` data, these will need to be manually added to your own newly created project as well.
 
 #### Cloning
 
