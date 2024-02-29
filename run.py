@@ -252,8 +252,11 @@ def element_hitpoint_reduction(player_name, player_move, computer_move, player_h
     player_level = element_levels[player_move]
     computer_level = computer_element_levels[computer_move]
 
+    damage = 0
+
     if computer_move in element_rules[player_move]['win_against']:
         computer_hitpoints -= 5 * player_level
+        computer_hitpoints = max(0, computer_hitpoints - damage)
         print(
             f"{player_name} chose {player_move} and "
             f"succesfully beat {computer_move}")
@@ -262,6 +265,7 @@ def element_hitpoint_reduction(player_name, player_move, computer_move, player_h
             element_levels[player_move] += 1
     elif player_move in element_rules[computer_move]['win_against']:
         player_hitpoints -= 5 * computer_level
+        player_hitpoints = max(0, player_hitpoints - damage)
         print(
             f"Computer chose {computer_move} and "
             f"{player_name}'s {player_move} failed")
