@@ -66,7 +66,7 @@ Elemental Fantasy I is a terminal based turn based game implemented in Python . 
 - [GitHub](http://github.com) Provides secure online storage for the project's code.
 - [Cisual Studio Code](https://code.visualstudio.com/) A code editor redefined and optimized for building and debugging modern web and cloud applications.
 - [Heroku](http://heroku.com) A cloud platform used for hosting the deployed back-end of the site.
-- [Colourama](https://pypi.org/) Colorama is a library that allows the colour of text.
+- [Colorama](https://pypi.org/) Colorama is a library that allows the colour of text.
 
 ## Data Model
 
