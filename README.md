@@ -236,9 +236,10 @@ You can fork this repository by using the following steps:
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | Tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | Version Control | "How to Write a Git Commit Message" |
 | [StackOverflow](https://stackoverflow.com/questions/34192588/simple-menu-in-python-3) | Menu | Creating simple menus |
-| [StackOverflow](https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python) | Rock, Paper, Scissors | Tutorial for creating the structure of my game |
-| [StackOverflow](https://stackoverflow.com/questions/51353831/how-to-create-a-rock-paper-scissors-program) | Rock, Paper, Scissors | Tutorial for creating the structure of my game |
+| [StackOverflow](https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python) | Rock, Paper, Scissors | Assitance with the structure of my game |
+| [StackOverflow](https://stackoverflow.com/questions/51353831/how-to-create-a-rock-paper-scissors-program) | Rock, Paper, Scissors | Assitance with the structure of my game |
 | [StackOverflow](https://stackoverflow.com/questions/50473861/tracking-player-health-text-based-game-python) | Tracking player health text based game - Python | Assitance with reducing hitpoints |
+| [StackOverflow](https://stackoverflow.com/questions/2084508/clear-the-terminal-in-python) | Clear the terminal in Python | Assitance with creating a clear function |
 | [YouTube](https://www.youtube.com/watch?v=55tcf9AA9hQ) | NeuralNine - Rock, Papeer, Scissors | Tutorial for creating the structure of my game |
 
 ### Acknowledgements

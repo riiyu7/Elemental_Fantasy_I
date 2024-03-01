@@ -12,7 +12,7 @@ def clear():
     """
     Clear function to clean-up the terminal so things don't get messy.
     Attribution: Stack Overflow - Clear the terminal
-    https://stackoverflow.com/questions/2084508/clear-the-terminal-in-python  # noqa
+    https://stackoverflow.com/questions/2084508/clear-the-terminal-in-python
     """
     os.system("cls" if os.name == "nt" else "clear")
 
@@ -21,7 +21,7 @@ def main():
     """
     Function which displays welcome message and gets playeers name
     Attribution: Stack Overflow - creating basic menu
-    https://stackoverflow.com/questions/34192588/simple-menu-in-python-3  # noqa
+    https://stackoverflow.com/questions/34192588/simple-menu-in-python-3
 
     """
     print(" ---------------------------------")
@@ -190,7 +190,7 @@ def add_coloured_elements(element):
     """
     Function to get coloured display of an element.
     Attribution: Personal Tutor - [Mosahidur R.] - Tutoring on Colorama
-    https://www.mytutor.co.uk/students/secure/tutors/2038828/  # noqa
+    https://www.mytutor.co.uk/students/secure/tutors/2038828/
     """
     colours = {
         'Fire': Fore.RED,
@@ -212,10 +212,10 @@ def play_game(player_name):
     Main Game function which calls several functions 
     for the functionality of the game.
     Attribution: Stack Overflow - creating structure of project
-    https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python  # noqa
+    https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python
     Attribution: Stack Overflow - creating structure of project
     https://stackoverflow.com/questions/51353831/how-to-create-a-rock-paper-scissors-program  # noqa
-    Attribution: Youtube: NeuralNine - creating structure of project  # noqa
+    Attribution: Youtube: NeuralNine - creating structure of project
     https://www.youtube.com/watch?v=55tcf9AA9hQ
     """
     player_hitpoints = 50
@@ -259,7 +259,7 @@ def element_hitpoint_reduction(player_name, player_move, computer_move, player_h
     Function for which elements are chosen aswell 
     as hitpoint reduction based on the move made.
     Attribution: Personal Tutor - [Mosahidur R.] - Asistance with lessons on the hitpoint reduction function  # noqa
-    https://www.mytutor.co.uk/students/secure/tutors/2038828/  # noqa
+    https://www.mytutor.co.uk/students/secure/tutors/2038828/
     Attribution: Stack Overflow - Asistance with creating hitpoint reduction function
     https://stackoverflow.com/questions/50473861/tracking-player-health-text-based-game-python  # noqa
     """
