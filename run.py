@@ -96,6 +96,7 @@ def show_rules():
     """
     Function which prints game rules/instructions.
     """
+    clear()
     print(f"""============ Instructions for Elemental Fantasy I ==============
     Gameplay:
     You battle with the computer using the five available elements:
@@ -205,7 +206,7 @@ def add_coloured_elements(element):
 
 
 def play_game(player_name):
-    clear()
+    
     start_game(player_name)
     """
     Function used to display a message before starting the game.
