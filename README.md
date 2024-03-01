@@ -239,7 +239,7 @@ You can fork this repository by using the following steps:
 | [StackOverflow](https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python) | Rock, Paper, Scissors | Tutorial for creating the structure of my game |
 | [StackOverflow](https://stackoverflow.com/questions/51353831/how-to-create-a-rock-paper-scissors-program) | Rock, Paper, Scissors | Tutorial for creating the structure of my game |
 | [StackOverflow](https://stackoverflow.com/questions/50473861/tracking-player-health-text-based-game-python) | Tracking player health text based game - Python | Assitance with reducing hitpoints |
-| [YouTube](https://www.youtube.com/watch?v=55tcf9AA9hQ) | NeuralNine - Rock, Papeer, Scissors | tutorial for creating the structure of my game |
+| [YouTube](https://www.youtube.com/watch?v=55tcf9AA9hQ) | NeuralNine - Rock, Papeer, Scissors | Tutorial for creating the structure of my game |
 
 ### Acknowledgements
 
