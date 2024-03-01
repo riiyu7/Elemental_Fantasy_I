@@ -9,6 +9,16 @@ colorama.init()
 # Attribution: Stack Overflow - Menu
 
 
+# Clear Function
+
+
+def clear():
+    """
+    Clear function to clean-up the terminal so things don't get messy.
+    """
+    os.system("cls" if os.name == "nt" else "clear")
+
+
 def main():
     print(" ---------------------------------")
     print("| Welcome to Elemental Fantasy I  |")
@@ -28,9 +38,12 @@ def main():
 
         if choice == 1:
             play_game(player_name)
+            clear()
         elif choice == 2:
             show_rules()
+            clear()
         elif choice == 3:
+            clear()
             print("Exiting the game. Goodbye!")
             break
         else:
@@ -52,14 +65,6 @@ def input_player_name():
             print(f"{name} is invalid. Please use alphanumeric only.")
     return name
 
-# Clear Function
-
-
-def clear():
-    """
-    Clear function to clean-up the terminal so things don't get messy.
-    """
-    os.system("cls" if os.name == "nt" else "clear")
 
 # Menu Functions
 
@@ -81,6 +86,7 @@ def get_menu_choice():
             choice = int(input("Option: "))
             return choice
         except ValueError:
+            clear()
             print("Invalid Input. Please enter a valid option.")
 
 
@@ -199,6 +205,7 @@ def add_coloured_elements(element):
 
 
 def play_game(player_name):
+    clear()
     start_game(player_name)
     """
     Function used to display a message before starting the game.
@@ -210,6 +217,7 @@ def play_game(player_name):
     computer_hitpoints = 50
 
     while player_hitpoints > 0 and computer_hitpoints > 0:
+        clear()
         display_element_levels()
 
         computer = random.choice(elements)
