@@ -5,20 +5,25 @@ from colorama import Fore, Back, Style
 colorama.init()
 
 
-# Attribution: Stack Overflow - Menu
-
-
 # Clear Function
 
 
 def clear():
     """
     Clear function to clean-up the terminal so things don't get messy.
+    Attribution: Stack Overflow - Clear the terminal
+    https://stackoverflow.com/questions/2084508/clear-the-terminal-in-python  # noqa
     """
     os.system("cls" if os.name == "nt" else "clear")
 
 
 def main():
+    """
+    Function which displays welcome message and gets playeers name
+    Attribution: Stack Overflow - creating basic menu
+    https://stackoverflow.com/questions/34192588/simple-menu-in-python-3  # noqa
+
+    """
     print(" ---------------------------------")
     print("| Welcome to Elemental Fantasy I  |")
     print(" ---------------------------------")
@@ -132,17 +137,14 @@ def show_rules():
     input("Press ENTER to continue")
     clear()
 
-# Game Rules
-
-# Attribution - Personal Tutor - Tutoring on python for creating game elements
-# Attribution - Stack Overflow - creating  basic structure of project
-# Attribution - Stack Overflow - creating  basic structure of project
-# Attribution - Youtube: NeuralNine - creating basic structure of project
+# Game Rules & Elements
 
 
 def display_element_levels():
     """
     Function which displays the current level of the players elements.
+    Attribution: Personal Tutor - [Mosahidur R.] - tutoring on game elements.
+    https://www.mytutor.co.uk/students/secure/tutors/2038828/  # noqa
     """
     print("\n-------------------------------------------")
     print("Current Element Levels: ")
@@ -186,7 +188,9 @@ computer_element_levels = {
 
 def add_coloured_elements(element):
     """
-    Function to get coloured display of an element
+    Function to get coloured display of an element.
+    Attribution: Personal Tutor - [Mosahidur R.] - Tutoring on Colorama
+    https://www.mytutor.co.uk/students/secure/tutors/2038828/  # noqa
     """
     colours = {
         'Fire': Fore.RED,
@@ -200,18 +204,19 @@ def add_coloured_elements(element):
 
 # Player & Computer hitpoint values
 
-# Attribution - Personal Tutor - Tutoring on python for creating game elements
-# Attribution - Stack Overflow - creating  basic structure of project
-
 
 def play_game(player_name):
     clear()
     start_game(player_name)
     """
-    Function used to display a message before starting the game.
-    Attribution: Stack Overflow - creating  basic structure of project
+    Main Game function which calls several functions 
+    for the functionality of the game.
+    Attribution: Stack Overflow - creating structure of project
     https://stackoverflow.com/questions/7863471/rock-paper-scissors-in-python  # noqa
-    Attribution: Youtube: NeuralNine - creating basic structure of project # noqa
+    Attribution: Stack Overflow - creating structure of project
+    https://stackoverflow.com/questions/51353831/how-to-create-a-rock-paper-scissors-program  # noqa
+    Attribution: Youtube: NeuralNine - creating structure of project  # noqa
+    https://www.youtube.com/watch?v=55tcf9AA9hQ
     """
     player_hitpoints = 50
     computer_hitpoints = 50
@@ -241,11 +246,6 @@ def play_game(player_name):
 
 # Start Game Functions
 
-# Attribution - Personal Tutor - Tutoring on python for creating game elements
-# Attribution - Stack Overflow - creating  basic structure of project
-# Attribution - Stack Overflow - creating  basic structure of project
-# Attribution - Youtube: NeuralNine - creating basic structure of project
-
 
 def start_game(player_name):
     """
@@ -256,7 +256,12 @@ def start_game(player_name):
 
 def element_hitpoint_reduction(player_name, player_move, computer_move, player_hitpoints, computer_hitpoints):  # noqa
     """
-    Function for which elements are chosen and hitpoints.
+    Function for which elements are chosen aswell 
+    as hitpoint reduction based on the move made.
+    Attribution: Personal Tutor - [Mosahidur R.] - Asistance with lessons on the hitpoint reduction function  # noqa
+    https://www.mytutor.co.uk/students/secure/tutors/2038828/  # noqa
+    Attribution: Stack Overflow - Asistance with creating hitpoint reduction function
+    https://stackoverflow.com/questions/50473861/tracking-player-health-text-based-game-python  # noqa
     """
     player_level = element_levels[player_move]
     computer_level = computer_element_levels[computer_move]
