@@ -95,7 +95,7 @@ def show_rules():
     You battle with the computer using the five available elements:
     Fire, Lightning, Wind, Water & Earth.
     The aim of the game is to pick from one of the 5 elements
-    To deplete your enemies Hitpoints (HP) from 30 to 0.
+    To deplete your enemies Hitpoints (HP) from 50 to 0.
     The player will take the first turn and depending
     On what the computer chooses the attack could either be:
     Successful - Hit reduced enemines HP
