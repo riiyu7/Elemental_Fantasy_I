@@ -4,7 +4,6 @@ import colorama
 from colorama import Fore, Back, Style
 colorama.init()
 
-# Start Game Functions.
 
 # Attribution: Stack Overflow - Menu
 
@@ -206,6 +205,7 @@ def add_coloured_elements(element):
 
 
 def play_game(player_name):
+    clear()
     start_game(player_name)
     """
     Function used to display a message before starting the game.
@@ -218,7 +218,7 @@ def play_game(player_name):
 
     while player_hitpoints > 0 and computer_hitpoints > 0:
         display_element_levels()
-        
+
         computer = random.choice(elements)
         player = input("\nChoose your element (Fire, Lightning, Wind, Water or Earth): ").capitalize()  # noqa
         clear()
